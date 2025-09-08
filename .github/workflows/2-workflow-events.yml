@@ -1,9 +1,11 @@
-name: Workflow Events
+name: Event Name Detector
+
 
 on:
   workflow_dispatch:
   push:
   pull_request:
+ 
 
 jobs:
   echo:
